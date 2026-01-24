@@ -1814,7 +1814,7 @@ do
         return Textbox;
     end;
 
-    function Funcs:AddToggle(Idx, Info)
+    function Funcs:WASDWASDWASDWASDWASDWASDWASDWASD(Idx, Info)
         assert(Info.Text, 'AddInput: Missing `Text` string.')
 
         local Toggle = {
