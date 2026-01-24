@@ -2148,7 +2148,7 @@ do
         return Slider;
     end;
 
-    function Funcs:HUWERFGIUHEWFIGYUWERFGYFWERHUIBWEFUHYBWEFUYWEFYUGVWEYFUVGWEFYGVVGYFEWYGVWEFYGVEWF(Idx, Info)
+    function Funcs:AddDropdown(Idx, Info)
         if Info.SpecialType == 'Player' then
             Info.Values = GetPlayersString();
             Info.AllowNull = true;
